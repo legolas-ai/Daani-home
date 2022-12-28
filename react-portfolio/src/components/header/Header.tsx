@@ -1,7 +1,6 @@
 import React from "react";
 import "./header.css";
 import HeaderSocials from "./HeaderSocials";
-
 const cartoonDaani = require("../../assets/cartoonDaani.jpg");
 
 export default function Header(): JSX.Element {
@@ -19,10 +18,8 @@ export default function Header(): JSX.Element {
         <a href="#portfolio" className="scroll__down">
           Scroll Down
         </a>
-        <h3>
-          I’m a product manager at Atlassian. Welcome to my portfolio. Feel free
-          to take a look around
-        </h3>
+        <h3>I’m a product manager at Atlassian.</h3>
+        <h3>Welcome to my portfolio. Feel free to take a look around</h3>
         <HeaderSocials />
       </div>
     </header>
