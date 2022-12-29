@@ -24,6 +24,11 @@
 
 .intro__body {
   color: black;
+  margin-bottom: 1rem;
+}
+
+.intro__rightcolumn {
+  padding-left: 3rem;
 }
 
 .intro__image {
