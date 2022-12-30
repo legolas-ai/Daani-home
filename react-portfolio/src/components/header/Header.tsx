@@ -15,8 +15,8 @@ export default function Header(): JSX.Element {
             alt="Daani AI Headshot"
           />
         </div>
-        <a href="#projects" className="scroll__down">
-          Scroll Down
+        <a href="#about" className="scroll__down">
+          About Me
         </a>
         <h3>I’m a product manager at Atlassian.</h3>
         <h3>Welcome to my portfolio. Feel free to take a look around</h3>

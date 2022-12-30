@@ -1,40 +1,50 @@
-.intro {
+.projects {
   height: 200vh;
   padding-top: 5rem;
   padding-bottom: 7rem;
   overflow: hidden;
 }
 
-.intro__container {
+.projects__container {
   height: 100%;
   position: relative;
   color: var(--color-primary);
 }
 
-.intro__title {
+.projects__title {
   font-family: "Oregano";
   text-align: center;
   margin-bottom: 2rem;
 }
 
-.intro__subheading {
+.projects__subheading {
   margin-top: 3rem;
   font-family: "Oregano";
 }
 
-.intro__body {
+.projects__body {
   color: black;
   margin-bottom: 1rem;
 }
 
-.intro__rightcolumn {
+.projects__rightcolumn {
   padding-left: 3rem;
 }
 
-.intro__image {
+.projects__image {
   display: block;
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
   position: relative;
+}
+
+.projects__disabled {
+  width: max-content;
+  display: inline-block;
+  color: grey;
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  border: 1px solid grey;
+  transition: var(--transition);
 }

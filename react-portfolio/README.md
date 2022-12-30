@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+Developer Daani Faiz
+@copyright Daani Faiz 2022
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About react-portfolio
+
+This site was created as a refresher to run through the end-to-end product development process.
 
 ## Available Scripts
 

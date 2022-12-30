@@ -1,0 +1,40 @@
+.about {
+  height: 200vh;
+  padding-top: 5rem;
+  padding-bottom: 7rem;
+  overflow: hidden;
+}
+
+.about__container {
+  height: 100%;
+  position: relative;
+  color: var(--color-primary);
+}
+
+.about__title {
+  font-family: "Oregano";
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.about__subheading {
+  margin-top: 3rem;
+  font-family: "Oregano";
+}
+
+.about__body {
+  color: black;
+  margin-bottom: 1rem;
+}
+
+.about__rightcolumn {
+  padding-left: 3rem;
+}
+
+.about__image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  position: relative;
+}
