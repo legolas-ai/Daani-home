@@ -3,6 +3,7 @@
   padding-top: 5rem;
   padding-bottom: 7rem;
   overflow: hidden;
+  max-width: 1000px;
 }
 
 .projects__container {

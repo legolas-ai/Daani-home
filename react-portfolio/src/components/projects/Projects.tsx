@@ -8,15 +8,15 @@ export default function Projects(): JSX.Element {
   return (
     <section id="projects" className="projects container projects__container">
       <h1 className="projects__title">Featured Projects</h1>
-      <div className="row">
-        <div className="column">
+      <div className="flex-container">
+        <div className="flex-item-left">
           <img
             className="projects__image"
             alt="cochlear implant"
             src={cochlearImplant}
           ></img>
         </div>
-        <div className="column projects__rightcolumn">
+        <div className="flex-item-right projects__rightcolumn">
           <h2 className="projects__subheading">
             Cochlear: N7 for N22 Lead Engineer
           </h2>
@@ -35,8 +35,8 @@ export default function Projects(): JSX.Element {
           </a>
         </div>
       </div>
-      <div className="row">
-        <div className="column projects__rightcolumn">
+      <div className="flex-container">
+        <div className="flex-item-left projects__rightcolumn">
           <h2 className="projects__subheading">
             Holitic: Health Tech Startup Founder
           </h2>
@@ -53,7 +53,7 @@ export default function Projects(): JSX.Element {
             Explore
           </a>
         </div>
-        <div className="column">
+        <div className="flex-item-right">
           <img
             className="projects__image"
             alt="habit tracker"
@@ -61,15 +61,15 @@ export default function Projects(): JSX.Element {
           ></img>
         </div>
       </div>
-      <div className="row">
-        <div className="column">
+      <div className="flex-container">
+        <div className="flex-item-left">
           <img
             className="projects__image"
             alt="breathlyser output graph"
             src={breathlyserOutputGraph}
           ></img>
         </div>
-        <div className="column projects__rightcolumn">
+        <div className="flex-item-right projects__rightcolumn">
           <h2 className="projects__subheading">Alcolizer Technology: R&D</h2>
           <h4 className="projects__body">
             Operating as a research mechatronics engineer, developed a novel

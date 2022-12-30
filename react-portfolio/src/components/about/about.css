@@ -24,7 +24,9 @@
 
 .about__body {
   color: black;
+  text-align: center;
   margin-bottom: 1rem;
+  margin-top: -1rem;
 }
 
 .about__rightcolumn {
@@ -37,4 +39,8 @@
   margin-right: auto;
   padding: 10px;
   position: relative;
+}
+
+.about__p {
+  padding-top: 1rem;
 }
