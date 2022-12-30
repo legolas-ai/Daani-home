@@ -18,10 +18,10 @@ export default function Footer(): JSX.Element {
           <a href="#projects">Projects</a>
         </li>
         <li>
-          <a href="#blog">Blog</a>
+          <a href="https://medium.com/@daanifaiz">Blog</a>
         </li>
         <li>
-          <a href="#linkedin">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/daani-faiz/">LinkedIn</a>
         </li>
       </ul>
 

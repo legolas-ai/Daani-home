@@ -20,10 +20,10 @@ export default function NAV(): JSX.Element {
       </a>
       <a href="#about">About</a>
       <br></br>
-      <a href="#blog">
+      <a href="https://medium.com/@daanifaiz">
         <SiMedium />
       </a>
-      <a href="#linkedIn">
+      <a href="https://www.linkedin.com/in/daani-faiz/">
         <BsLinkedin />
       </a>
     </nav>
