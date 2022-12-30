@@ -7,7 +7,7 @@ export default function HeaderSocials(): JSX.Element {
       <a href="https://linkedin.com/daanifaiz" target="_blank" rel="noreferrer">
         <BsLinkedin />
       </a>
-      <a href="https://github.com/danie9" target="_blank" rel="noreferrer">
+      <a href="https://github.com/daanifaiz" target="_blank" rel="noreferrer">
         <BsGithub />
       </a>
     </div>
