@@ -1,7 +1,7 @@
 .about {
-  height: 200vh;
-  padding-top: 5rem;
-  padding-bottom: 7rem;
+  height: 100vh;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   overflow: hidden;
 }
 
@@ -42,5 +42,5 @@
 }
 
 .about__p {
-  padding-top: 1rem;
+  padding-top: 2rem;
 }

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./nav.css";
-import { BsLinkedin } from "react-icons/bs";
+import { BsLinkedin, BsGithub, BsHouse } from "react-icons/bs";
 import { SiMedium } from "react-icons/si";
 
 export default function NAV(): JSX.Element {
@@ -8,7 +8,7 @@ export default function NAV(): JSX.Element {
   return (
     <nav>
       <a className={activeNav === "#" ? "active" : ""} href="/">
-        Daani Faiz
+        <BsHouse />
       </a>
       <br className="nav__gap"></br>
       <a
@@ -18,11 +18,8 @@ export default function NAV(): JSX.Element {
       >
         Projects
       </a>
-      <a href="#about">About</a>
+      <a href="#about">Blogs</a>
       <br></br>
-      <a href="https://medium.com/@daanifaiz">
-        <SiMedium />
-      </a>
       <a href="https://www.linkedin.com/in/daani-faiz/">
         <BsLinkedin />
       </a>

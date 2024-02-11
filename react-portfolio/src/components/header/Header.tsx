@@ -7,19 +7,24 @@ export default function Header(): JSX.Element {
   return (
     <header>
       <div className="container header__container">
-        <h2>G'Day, I'm Daani</h2>
-        <div className="cartoonDaani">
-          <img
-            className="header__image"
-            src={cartoonDaani}
-            alt="Daani AI Headshot"
+        <div className="header__image">
+          <h2>
+            <p>G'day I'm Daani</p> I'm an Engineer,The purpose of this page is
+            to take you on an interactive journey through my work.
+            <p></p>
+            Checkout the chatbot below to learn a bit about this space
+          </h2>
+        </div>
+
+        <div className="textbox__container">
+          <input
+            type="textarea"
+            className="textbox__input"
+            placeholder="Enter your prompt here"
           />
         </div>
-        <a href="#about" className="scroll__down">
-          About Me
-        </a>
-        <h3>I’m a product manager at Atlassian.</h3>
-        <h3>Welcome to my portfolio. Feel free to take a look around</h3>
+        <h2></h2>
+        <p></p>
         <HeaderSocials />
       </div>
     </header>

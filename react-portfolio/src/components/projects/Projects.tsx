@@ -1,22 +1,15 @@
 import React from "react";
 import "./projects.css";
-const cochlearImplant = require("../../assets/cochlearImplant.png");
+const cochlearImplant = require("../../assets/cochlearImplantDiagram.png");
 const habitTracker = require("../../assets/habit_tracker_mobile_hf.png");
-const breathlyserOutputGraph = require("../../assets/breathlyserOutputGraph.png");
+const breathlyserOutputGraph = require("../../assets/breathlyserOutputGraph1.png");
 
 export default function Projects(): JSX.Element {
   return (
     <section id="projects" className="projects container projects__container">
       <h1 className="projects__title">Featured Projects</h1>
       <div className="flex-container">
-        <div className="flex-item-left">
-          <img
-            className="projects__image"
-            alt="cochlear implant"
-            src={cochlearImplant}
-          ></img>
-        </div>
-        <div className="flex-item-right projects__rightcolumn">
+        <div className="flex-item-left projects__rightcolumn">
           <h2 className="projects__subheading">
             Cochlear: N7 for N22 Lead Engineer
           </h2>
@@ -33,6 +26,13 @@ export default function Projects(): JSX.Element {
           >
             Explore
           </a>
+        </div>
+        <div className="flex-item-right">
+          <img
+            className="projects__image"
+            alt="cochlear implant"
+            src={cochlearImplant}
+          ></img>
         </div>
       </div>
       <div className="flex-container">
@@ -61,15 +61,9 @@ export default function Projects(): JSX.Element {
           ></img>
         </div>
       </div>
+
       <div className="flex-container">
-        <div className="flex-item-left">
-          <img
-            className="projects__image"
-            alt="breathlyser output graph"
-            src={breathlyserOutputGraph}
-          ></img>
-        </div>
-        <div className="flex-item-right projects__rightcolumn">
+        <div className="flex-item-left projects__rightcolumn">
           <h2 className="projects__subheading">Alcolizer Technology: R&D</h2>
           <h4 className="projects__body">
             Operating as a research mechatronics engineer, developed a novel
@@ -77,6 +71,13 @@ export default function Projects(): JSX.Element {
             of a honours engineering thesis.
           </h4>
           <div className="projects__disabled">Embargoed until Nov 2026</div>
+        </div>
+        <div className="flex-item-right">
+          <img
+            className="projects__image"
+            alt="breathlyser output graph"
+            src={breathlyserOutputGraph}
+          ></img>
         </div>
       </div>
     </section>

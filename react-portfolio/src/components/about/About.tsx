@@ -1,5 +1,8 @@
 import React from "react";
 import "./about.css";
+// const daaniFitness = require("../../assets/Daani-about-fitness.png");
+// const daaniGraduation = require("../../assets/Daani-about-graduation.jpg");
+// const daaniActive = require("../../assets/Daani-about-active.jpg");
 
 export default function About(): JSX.Element {
   return (
@@ -17,7 +20,7 @@ export default function About(): JSX.Element {
         <p className="about__p">
           I am a naturally curious person and love to fill my spare time I love
           morning runs, a good book, coffee, ocean swims, motorbike rides and
-          almond croissants
+          almond croissants!
         </p>
         <p className="about__p"></p>
         <a
