@@ -13,7 +13,7 @@ header p {
   padding: 0.9rem;
   border-radius: 50%;
   display: flex;
-  text-align: center;
+  text-align: left;
   top: 50%;
   color: purple;
   font-size: 3rem;
@@ -28,21 +28,22 @@ header p {
 
 /* ========== TEXT BOX CONTAINER ========== */
 .textbox__container {
-  text-align: center;
+  text-align: left;
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 .textbox__input {
   width: 800px; /* Adjust width as needed */
-  height: auto;
+  height: 400px;
   padding: 0.5rem;
   border: 1px solid #ccc;
   border-radius: 5px;
   font-size: 20px;
   resize: vertical;
+  vertical-align: top; /* Ensure text starts at the top */
 }
 
 /* =========== HEADER IMAGE ========== */

@@ -9,10 +9,9 @@ export default function Header(): JSX.Element {
       <div className="container header__container">
         <div className="header__image">
           <h2>
-            <p>G'day I'm Daani</p> I'm an Engineer,The purpose of this page is
-            to take you on an interactive journey through my work.
-            <p></p>
-            Checkout the chatbot below to learn a bit about this space
+            <p>G'day I'm Daani</p> The purpose of this page is to take you on an
+            journey through my work, ask questions in the chat bot below or
+            navigate to one of my pages in the nav bar above.
           </h2>
         </div>
 
@@ -20,7 +19,7 @@ export default function Header(): JSX.Element {
           <input
             type="textarea"
             className="textbox__input"
-            placeholder="Enter your prompt here"
+            placeholder="Ask virtual Daani anything (heavily influenced by the views of Open AI's famous NPL bot"
           />
         </div>
         <h2></h2>
